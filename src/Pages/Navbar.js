@@ -2,7 +2,6 @@ import React, { Component, useState } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 class NavBar extends Component {
-  // const [menuBarSelected, toggleMenuBarSelected] = useState(false);
   scrollToTop = () => {
     scroll.scrollToTop();
   }
@@ -47,7 +46,7 @@ class NavBar extends Component {
             <div className="nav-item">
               <Link
                 activeClass="active"
-                to="projects-container"
+                to="projects"
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -56,7 +55,7 @@ class NavBar extends Component {
                 Projects
               </Link>
             </div>
-            <div className="nav-item">
+            {/* <div className="nav-item">
               <Link
                 activeClass="active"
                 to="skills-container"
@@ -67,14 +66,14 @@ class NavBar extends Component {
               >
                 Skills
               </Link>
-            </div>
+            </div> */}
             <div className="nav-item">
               <Link
                 activeClass="active"
-                to="contact-container"
+                to="contact-me"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-100}
                 duration={700}
               >
                 Contact Me

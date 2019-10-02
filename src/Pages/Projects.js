@@ -8,7 +8,6 @@ export default class Projects extends React.Component {
         react: true,
         js: true,
         rails:true,
-        redux:true
     }
     render() {
       let eachProject = PROJECTS.map(project => {
@@ -18,7 +17,7 @@ export default class Projects extends React.Component {
         return (
        
             <React.Fragment>
-              <div className="projects-cards">
+              <div id="projects" className="projects-cards">
                 <Jump>
                 <h2>{"Projects"}</h2>
                 <div className="project-container">
