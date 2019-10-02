@@ -3,7 +3,6 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 class NavBar extends Component {
   // const [menuBarSelected, toggleMenuBarSelected] = useState(false);
-
   scrollToTop = () => {
     scroll.scrollToTop();
   }
@@ -11,8 +10,9 @@ class NavBar extends Component {
   render() {
     return (
       <nav className="nav">
-        <div className="nav-items">
-          <div className="nav-item">
+        <div className="nav-content">
+          <div className="nav-items">
+            <div className="nav-item">
               <Link
                 activeClass="active"
                 to="root"
@@ -21,14 +21,21 @@ class NavBar extends Component {
                 offset={0}
                 duration={1000}
               >
-              <span> <img style={{height:"60px"}} src={require(`../images/logo.png`)} /></span> 
+                <span>
+                  <img
+                    onClick={this.scrollToTop}
+                    style={{ height: "60px" }}
+                    src={require(`../images/logo.png`)}
+                    alt=''
+                  />
+                </span>
               </Link>
             </div>
 
             <div className="nav-item">
               <Link
                 activeClass="active"
-                to="root"
+                to="about"
                 spy={true}
                 smooth={true}
                 offset={995}
@@ -60,8 +67,8 @@ class NavBar extends Component {
               >
                 Skills
               </Link>
-              </div>
-              <div className="nav-item">
+            </div>
+            <div className="nav-item">
               <Link
                 activeClass="active"
                 to="contact-container"
@@ -72,11 +79,11 @@ class NavBar extends Component {
               >
                 Contact Me
               </Link>
-           </div>
+            </div>
+          </div>
         </div>
       </nav>
-  
-      )
+    );
   };
 };
 

@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
-import Particles from 'react-particles-js';
 
-export default class Particles extends Component {
+class Skills extends Component {
     render() {
         return (
             <div>
+                Here is what Kevin most proficient in:
                 
             </div>
-        )
+        );
     }
 }
+
+export default Skills;

@@ -1,4 +1,4 @@
-export const PROJECTS=[
+export const PROJECTS = [
     {
     name:"NYC Restroom Locator",
     info:"A website that allows a user to click on any restroom marker on the map to get information so it can be added to the visit list and review it",
@@ -33,3 +33,4 @@ export const PROJECTS=[
     js:true,
     rails:true
 },
+]
