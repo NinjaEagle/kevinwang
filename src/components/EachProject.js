@@ -14,31 +14,29 @@ export default class EachProject extends Component {
         } = this.props.project;
 
         return (
-          <div>
-          <div class="card">
-            <div class="card-content">
-              <p class="title">
-                {name}
-              </p>
-              <p class="subtitle">{info}</p>
+          <div id="each-project">
+            <div class="card">
+              <div class="card-content">
+                <p class="title">{name}</p>
+                <p class="subtitle">{info}</p>
+               
+                  <img src={img} className='img-respond' alt={null}/>
+          
+              </div>
+              <footer class="card-footer">
+                <p class="card-footer-item">
+                  <span>
+                    <a href={githubFrontEnd}>Github</a>
+                  </span>
+                </p>
+                <p class="card-footer-item">
+                  <span>
+                    <a href={video}>Video</a>
+                  </span>
+                </p>
+              </footer>
             </div>
-            <footer class="card-footer">
-              <p class="card-footer-item">
-                <span>
-                  
-                  <a href={githubFrontEnd}>
-                    Github
-                  </a>
-                </span>
-              </p>
-              <p class="card-footer-item">
-                <span>
-                  <a href={video}>Video</a>
-                </span>
-              </p>
-            </footer>
-          </div> 
-          <br></br>
+            <br></br>
           </div>
         );  
     }

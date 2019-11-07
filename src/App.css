@@ -30,7 +30,7 @@
   position: sticky;
   top: 0px;
   width: 100vw;
-  height: 80px;
+  height: 70px;
   z-index: 1000;
   box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
 }
@@ -65,3 +65,5 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
+
+

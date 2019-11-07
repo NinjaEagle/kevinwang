@@ -15,18 +15,16 @@ export default class Projects extends React.Component {
          });
         
         return (
-       
-            <React.Fragment>
-              <div id="projects" className="projects-cards">
-                <Jump>
-                <h2>{"Projects"}</h2>
-                <div className="project-container">
-                    {eachProject}
-                </div>
-               </Jump>
-               </div>
-            </React.Fragment>
-      
+          <React.Fragment>
+            <div id="projects" className="projects-cards">
+              <Jump>
+                <h2 class="has-text-centered-mobile is-size-2 is-family-code">
+                  {"Projects"}
+                </h2>
+              </Jump>
+              {eachProject}
+            </div>
+          </React.Fragment>
         );
     }
 }

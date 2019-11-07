@@ -12,6 +12,12 @@ code {
     monospace;
 }
 
+/* about */
+
+.intro {
+  background-color: darkkhaki;
+  height: 100vh;
+}
 /* projects */
 
 .projects-cards{
@@ -23,15 +29,15 @@ code {
   font-weight: normal;
 }
 
+#projects {
+  height: 100vh;
+}
+
 /* contact me links */
 .links{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-}
-
-.intro{
-  background-color: darkkhaki;
 }
 
 #contact-me{

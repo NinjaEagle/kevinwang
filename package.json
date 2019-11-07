@@ -2,8 +2,12 @@
   "name": "kevin-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ninjaeagle.github.io/NinjaEagle.github.io",
+  "homepage": "https://ninjaeagle.github.io/kevinw-website",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-brands-svg-icons": "^5.11.2",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/react-fontawesome": "^0.1.7",
     "gh-pages": "^2.1.1",
     "react": "^16.9.0",
     "react-animations": "^1.0.0",
@@ -40,6 +44,9 @@
   },
   "devDependencies": {
     "bulma": "^0.7.5",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
     "node-sass": "^4.12.0"
   },
   "main": "sass/mystyles.scss"
