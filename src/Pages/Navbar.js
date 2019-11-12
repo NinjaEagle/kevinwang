@@ -1,4 +1,4 @@
-import React, { Component, Fragment} from "react";
+import React, { Component} from "react";
 // import { Link, animateScroll as scroll } from "react-scroll";
 import '../css/navbar.css';
 
@@ -12,12 +12,13 @@ class NavBar extends Component {
     return (
       <nav class="navbar is-link is-fixed-top">
         <div class="navbar-brand">
-          <a class="navbar-item" href="#">
+          <a class="navbar-item" href="#about">
             <img
               src={require(`../images/logo.png`)}
-              alt="my face"
+              alt="kev logo"
               height="28"
             />
+            <h1>Kevin Wang</h1>
           </a>
           <div
             class="navbar-burger burger"
@@ -43,7 +44,7 @@ class NavBar extends Component {
               About
             </a>
 
-            <a class="navbar-item is-active" href="#skills-list">
+            <a class="navbar-item is-active" href="#skills">
               Skills
             </a>
 
@@ -104,95 +105,3 @@ export default NavBar;
  // scrollToTop = () => {
   //   scroll.scrollToTop();
   // }
-
-
-{/* <nav class="navbar is-transparent">
-  <div class="navbar-item has-dropdown is-hoverable">
-    <div class="navbar-brand">
-      <Link
-              activeClass="active"
-              to="root"
-              spy={true}
-              smooth={true}
-              offset={0}
-              duration={1000}
-            >
-      <span>
-        <img
-          onClick={this.scrollToTop}
-          style={{ height: "100px" }}
-          src={require(`../images/logo.png`)}
-          alt=""
-        />
-      </span>
-      </Link>
-
-      <div
-        class="navbar-burger burger"
-        data-target="navbarExampleTransparentExample"
-      >
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </div>
-
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <div class="column center desktop">
-        <li class="nav-item">
-          <a class="nav-link" href="about">
-            <Link
-                    activeClass="active"
-                    to="about"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={1000}
-                  >
-                    About Me
-                  </Link>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="skills">
-            <Link
-                  activeClass="active"
-                  to="skills-list"
-                  spy={true}
-                  smooth={true}
-                  offset={-70}
-                  duration={700}
-                >
-                  Skills
-                </Link>
-          </a>
-        </li>
-        <li class="nav-item">
-          <Link
-                  activeClass="active"
-                  to="projects"
-                  spy={true}
-                  smooth={true}
-                  offset={-70}
-                  duration={700}
-                >
-                  Projects
-                </Link>
-        </li>
-        <li class="nav-item">
-          <Link
-                  activeClass="active"
-                  to="contact-me"
-                  spy={true}
-                  smooth={true}
-                  offset={-100}
-                  duration={700}
-                >
-                  Contact Me
-                </Link>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>; */}

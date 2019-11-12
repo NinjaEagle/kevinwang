@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import MyInfo from '../components/MyInfo';
 import '../css/about.css'
 // import { Controller, Scene } from "react-scrollmagic";
 
@@ -8,8 +7,8 @@ class About extends Component {
       return (
         <div id="about">
           <img
-            // src={require(`../images/kevin.jpg`)}
-            style={{ height: "200px", margin: "7%"}}
+            src={require(`../images/kevin.jpg`)}
+            style={{ height: "200px", margin: "70px 0 18px 0px"}}
             alt="avatar"
             className="avatar-img"
           />
@@ -31,10 +30,43 @@ class About extends Component {
               and back end knowledge even further by allowing me to create
               seamless web applications with design in mind.
             </p>
-            <MyInfo />
           </div>
-          {/* </Scene>
-          </Controller> */}
+          <div className="links">
+            <div>
+              <a href="https://docs.google.com/document/d/1bKWJr-YGZ-OuUAfWtDJYiyBT9Rxj0Z4VX0N--u4w7x0/edit?usp=sharing">
+                <i className="" ></i>
+                My Resume
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://github.com/NinjaEagle"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <i className="fab fa-github-square fa-2x" aria-hidden="true" ></i>
+                Github
+              </a>
+            </div>
+            <div>
+              <a href="https://www.linkedin.com/in/kevin-wang-06/">
+                <i className="fab fa-linkedin fa-2x" aria-hidden="true" ></i>
+              
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://medium.com/@kwang06"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <i className="fab fa-medium fa-2x" aria-hidden="true"></i>
+                My Blogs
+              </a>
+            </div>
+          </div>
+            {/* </Scene>
+            </Controller> */}
         </div>
       );
   }

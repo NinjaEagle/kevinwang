@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import "../sass/eachproject.scss";
 
 export default class EachProject extends Component {
     render() {
@@ -6,27 +7,31 @@ export default class EachProject extends Component {
           name,
           info,
           githubFrontEnd,
-          githubBackEnd,
+          // githubBackEnd,
           video,
           live,
-          github,
+          // github,
           img,
         } = this.props.project;
 
         return (
-          <div id="each-project">
+          <div class="each-project">
             <div class="card">
-              <div class="card-content">
+              <div class="card-content center">
                 <p class="title">{name}</p>
                 <p class="subtitle">{info}</p>
-               
-                  <img src={img} className='img-respond' alt={null}/>
-          
+
+                <img src={img} className="img-respond" alt='' />
               </div>
               <footer class="card-footer">
                 <p class="card-footer-item">
                   <span>
                     <a href={githubFrontEnd}>Github</a>
+                  </span>
+                </p>
+                <p class="card-footer-item">
+                  <span>
+                    <a href={live}>Live</a>
                   </span>
                 </p>
                 <p class="card-footer-item">

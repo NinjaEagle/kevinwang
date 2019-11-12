@@ -5,9 +5,11 @@ export default function MyInfo() {
       <Fragment>
         <div className="links">
           <div>
-            <a href="https://docs.google.com/document/d/1bKWJr-YGZ-OuUAfWtDJYiyBT9Rxj0Z4VX0N--u4w7x0/edit?usp=sharing">
-              <i className="" ></i>
-              My Resume
+            <a href="mailto: kcwang06@gmail.com">
+              <i
+                className="contactlinks fas fa-envelope-square fa-3x wow bounceIn"
+                data-wow-delay=".1s"
+              ></i>
             </a>
           </div>
           <div>
@@ -16,14 +18,26 @@ export default function MyInfo() {
               rel="noopener noreferrer"
               target="_blank"
             >
-              <i className="fab fa-github-square" aria-hidden="true" ></i>
-              My Github
+              <i
+                className="contactlinks fab fa-github-square fa-3x wow bounceIn"
+                aria-hidden="true"
+              ></i>
             </a>
           </div>
           <div>
             <a href="https://www.linkedin.com/in/kevin-wang-06/">
-              <i className="fab fa-linkedin-square" aria-hidden="true" ></i>
-              LinkedIn
+              <i
+                className="contactlinks fab fa-linkedin fa-3x wow bounceIn"
+                aria-hidden="true"
+              ></i>
+            </a>
+          </div>
+          <div>
+            <a href="https://twitter.com/kevlyoko">
+              <i
+                className="contactlinks fab fa-twitter fa-3x wow bounceIn"
+                aria-hidden="true"
+              ></i>
             </a>
           </div>
           <div>
@@ -32,10 +46,18 @@ export default function MyInfo() {
               rel="noopener noreferrer"
               target="_blank"
             >
-              <i className="fab fa-medium" aria-hidden="true"></i>
-              My Blogs
+              <i
+                className="contactlinks fab fa-medium fa-3x wow bounceIn"
+                aria-hidden="true"
+              ></i>
             </a>
           </div>
+        </div>
+        <div class="resume">
+          <a href="https://docs.google.com/document/d/1bKWJr-YGZ-OuUAfWtDJYiyBT9Rxj0Z4VX0N--u4w7x0/edit?usp=sharing">
+            <i className=""></i>
+            My Resume
+          </a>
         </div>
       </Fragment>
     );

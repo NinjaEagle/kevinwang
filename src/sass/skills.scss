@@ -1,11 +1,32 @@
+.skills-title{
+    padding-top: 52px;
+}
+
 #skills-list{
     display: flex;
-    align-items: center;
+    justify-content: center;
     flex-direction: row;
-    height: 100vh;
+    flex-wrap: wrap;
+}
+.skills-section{
     background-color: lightgreen;
+    height: 100vh;
+    text-align: center;
 }
 
 .skillcard{
-    padding: 0 20px 20px
+    
+    padding: 25px 40px 25px
+}
+.css{
+    height:50px
+}
+
+.postgres {
+    height: 70px;
+    margin-top: 17px
+}
+
+.logo{
+    margin-top: 5px;
 }

@@ -18,20 +18,7 @@ code {
   background-color: darkkhaki;
   height: 100vh;
 }
-/* projects */
 
-.projects-cards{
-  background-color: mistyrose;
-}
-
-.projects-cards h1{
-  text-align: center;
-  font-weight: normal;
-}
-
-#projects {
-  height: 100vh;
-}
 
 /* contact me links */
 .links{

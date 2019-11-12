@@ -1,5 +1,4 @@
 import React from 'react';
-// import './App.css';
 import './sass/mystyles.scss'
 // import Header from './header/Header';
 import Navbar from './Pages/Navbar';
@@ -17,7 +16,7 @@ class App extends React.Component{
         <About dark={false} id="about-container" />
         <Skills dark={true} id="skills-container" />
         <Projects dark={true} id="projects-container" />
-        <ContactMe dark={false} id="contact-container" />
+        <ContactMe dark={true} id="contact-container" />
       </div>
     );
   }
