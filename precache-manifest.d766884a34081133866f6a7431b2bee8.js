@@ -1,23 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4b43bbc2a629eea2ad248acbd8b978fe",
+    "revision": "7ac00d918d451892ca3faa4777691c99",
     "url": "/kevinwang/index.html"
   },
   {
-    "revision": "f5a682844927db7e193c",
-    "url": "/kevinwang/static/css/main.db3fdc95.chunk.css"
+    "revision": "a16ce34c668ec788e50b",
+    "url": "/kevinwang/static/css/main.f471cf9a.chunk.css"
   },
   {
     "revision": "87bf2d121b1688f4ca7f",
     "url": "/kevinwang/static/js/2.36498ff7.chunk.js"
   },
   {
-    "revision": "f5a682844927db7e193c",
-    "url": "/kevinwang/static/js/main.c33dfdc7.chunk.js"
+    "revision": "a16ce34c668ec788e50b",
+    "url": "/kevinwang/static/js/main.a36226c2.chunk.js"
   },
   {
     "revision": "83b87a9e5725967e4a51",
     "url": "/kevinwang/static/js/runtime-main.788ec012.js"
+  },
+  {
+    "revision": "62f10d46561ed0b911d42b7510d62d74",
+    "url": "/kevinwang/static/media/CrimsonText-Regular.62f10d46.ttf"
+  },
+  {
+    "revision": "c641dbee1d75892e4d88bdc31560c91b",
+    "url": "/kevinwang/static/media/Montserrat-SemiBold.c641dbee.ttf"
   },
   {
     "revision": "45e46bc025b8fd350c09492ce01d4549",
