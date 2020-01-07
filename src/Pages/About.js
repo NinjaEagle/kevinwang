@@ -20,7 +20,7 @@ class About extends Component {
                 creating blogs.
               </p>
               <p>
-                My skills are diverse: from bront
+                My skills are diverse: from front
                 end, back end development, to hardware design. I enjoy each aspect as I create
                 seamless web and mobile applications with design in mind. I'm available for remote work!
               </p>
