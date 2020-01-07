@@ -1,6 +1,6 @@
 import React, { Component} from "react";
 // import { Link, animateScroll as scroll } from "react-scroll";
-import '../css/navbar.css';
+import '../sass/navbar.css';
 
 class NavBar extends Component {
   // scrollToTop = () => {
@@ -12,7 +12,7 @@ class NavBar extends Component {
     return (
       <nav class="navbar is-link is-fixed-top">
         <div class="navbar-brand">
-          <a class="navbar-item" href="#about">
+          <a class="navbar-item" href="#welcome">
             <img
               src={require(`../images/logo.png`)}
               alt="kev logo"
@@ -27,7 +27,6 @@ class NavBar extends Component {
             onClick={() => {
               let toggle = document.querySelector(".navbar-burger");
               let menu = document.querySelector(".navbar-menu");
-              let link = document.querySelector(".navbar-item");
               toggle.classList.toggle("is-active");
               menu.classList.toggle("is-active");
               

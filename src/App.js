@@ -4,8 +4,9 @@ import './sass/mystyles.scss'
 import Navbar from './Pages/Navbar';
 import About from './Pages/About';
 import ContactMe from './Pages/ContactMe';
-import Projects from './Pages/Projects';
+import Data from './Projects/Data.js';
 import Skills from './Pages/Skills';
+import Welcome from './Pages/Welcome';
 
 
 class App extends React.Component{
@@ -13,9 +14,10 @@ class App extends React.Component{
     return (
       <div className="my-portfolio">
         <Navbar />
+        <Welcome dark={true} id="welcome"/>
         <About dark={false} id="about-container" />
         <Skills dark={true} id="skills-container" />
-        <Projects dark={true} id="projects-container" />
+        <Data dark={true} id="projects-container" />
         <ContactMe dark={true} id="contact-container" />
       </div>
     );
