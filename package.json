@@ -2,7 +2,7 @@
   "name": "kevin-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ninjaeagle.github.io/kevinwang",
+  "homepage": "https://www.kevwang.me",
   "dependencies": {
     "@brunoimbrizi/controlkit": "^0.1.99",
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
