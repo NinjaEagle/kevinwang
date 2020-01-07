@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0eafc135d5303e7f4ef670773ba75bfb",
+    "revision": "7412e7d3eda98dcd64204aaa0c5c29af",
     "url": "/kevinwang/index.html"
   },
   {
-    "revision": "5ccd3506ee8bbc823bdb",
-    "url": "/kevinwang/static/css/main.a4f49327.chunk.css"
+    "revision": "106a1acaf2656ea77d49",
+    "url": "/kevinwang/static/css/main.4574fe0f.chunk.css"
   },
   {
-    "revision": "61c47b18400893045dc9",
-    "url": "/kevinwang/static/js/2.9959bfc6.chunk.js"
+    "revision": "c1b54786f6a806faa4b0",
+    "url": "/kevinwang/static/js/2.17ca9a51.chunk.js"
   },
   {
-    "revision": "5ccd3506ee8bbc823bdb",
-    "url": "/kevinwang/static/js/main.3799eb41.chunk.js"
+    "revision": "106a1acaf2656ea77d49",
+    "url": "/kevinwang/static/js/main.e223764b.chunk.js"
   },
   {
-    "revision": "f29d966d5782be2cafbd",
-    "url": "/kevinwang/static/js/runtime-main.4a28c008.js"
+    "revision": "15f013322f80217afe0a",
+    "url": "/kevinwang/static/js/runtime-main.e90ea5fd.js"
   },
   {
     "revision": "45e46bc025b8fd350c09492ce01d4549",
