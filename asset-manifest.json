@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/kevinwang/static/css/main.f471cf9a.chunk.css",
-    "main.js": "/kevinwang/static/js/main.a36226c2.chunk.js",
-    "main.js.map": "/kevinwang/static/js/main.a36226c2.chunk.js.map",
-    "runtime-main.js": "/kevinwang/static/js/runtime-main.788ec012.js",
-    "runtime-main.js.map": "/kevinwang/static/js/runtime-main.788ec012.js.map",
-    "static/js/2.36498ff7.chunk.js": "/kevinwang/static/js/2.36498ff7.chunk.js",
-    "static/js/2.36498ff7.chunk.js.map": "/kevinwang/static/js/2.36498ff7.chunk.js.map",
+    "main.css": "/kevinwang/static/css/main.a4f49327.chunk.css",
+    "main.js": "/kevinwang/static/js/main.6798cf29.chunk.js",
+    "main.js.map": "/kevinwang/static/js/main.6798cf29.chunk.js.map",
+    "runtime-main.js": "/kevinwang/static/js/runtime-main.4a28c008.js",
+    "runtime-main.js.map": "/kevinwang/static/js/runtime-main.4a28c008.js.map",
+    "static/js/2.9959bfc6.chunk.js": "/kevinwang/static/js/2.9959bfc6.chunk.js",
+    "static/js/2.9959bfc6.chunk.js.map": "/kevinwang/static/js/2.9959bfc6.chunk.js.map",
     "index.html": "/kevinwang/index.html",
-    "precache-manifest.d766884a34081133866f6a7431b2bee8.js": "/kevinwang/precache-manifest.d766884a34081133866f6a7431b2bee8.js",
+    "precache-manifest.991599a5e5782d3aab8b4b6d3cad78f6.js": "/kevinwang/precache-manifest.991599a5e5782d3aab8b4b6d3cad78f6.js",
     "service-worker.js": "/kevinwang/service-worker.js",
-    "static/css/main.f471cf9a.chunk.css.map": "/kevinwang/static/css/main.f471cf9a.chunk.css.map",
-    "static/media/CrimsonText-Regular.ttf": "/kevinwang/static/media/CrimsonText-Regular.62f10d46.ttf",
-    "static/media/Montserrat-SemiBold.ttf": "/kevinwang/static/media/Montserrat-SemiBold.c641dbee.ttf",
+    "static/css/main.a4f49327.chunk.css.map": "/kevinwang/static/css/main.a4f49327.chunk.css.map",
     "static/media/Postgresql.svg": "/kevinwang/static/media/Postgresql.45e46bc0.svg",
     "static/media/kevin.jpg": "/kevinwang/static/media/kevin.1fc89f55.jpg",
-    "static/media/about.css": "/kevinwang/static/media/nyc.fcbfd0a1.jpg",
+    "static/media/about.css": "/kevinwang/static/media/notebook laptop.a72264f4.jpg",
     "static/media/rails.png": "/kevinwang/static/media/rails.8614e1a4.png",
-    "static/media/redux.png": "/kevinwang/static/media/redux.fd9ab9ee.png"
+    "static/media/redux.png": "/kevinwang/static/media/redux.fd9ab9ee.png",
+    "static/media/restaurantjourney.gif": "/kevinwang/static/media/restaurantjourney.f0849c83.gif",
+    "static/media/restroomfinder.gif": "/kevinwang/static/media/restroomfinder.a77c84db.gif"
   }
 }
