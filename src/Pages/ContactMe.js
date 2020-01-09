@@ -5,7 +5,7 @@ class ContactMe extends Component {
     render() {
         return (
             <div id="contact-me">
-                <h1 className="contact-title">Contact Me</h1>
+                <h1 className="contact-title has-text-centered-mobile is-size-2">Contact Me</h1>
                 <MyInfo />
                 <img className="contactlogo" src={require(`../images/logo.png`)} alt="mylogo" />
             </div>

@@ -5,7 +5,7 @@ import Slide from 'react-reveal/Slide';
 class Welcome extends Component {
     render() {
         return (
-            <div id="welcome" className="welcome-section">
+            <div id="welcome" className="welcome-section has-text-centered-mobile">
                 <div className="title is-2 animated">
                     <Slide left >
                         Kevin Wang

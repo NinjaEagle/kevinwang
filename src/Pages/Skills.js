@@ -46,7 +46,7 @@ class Skills extends Component {
             </div>
             <div class="skillcard">
               <h2>Redux</h2>
-              <img src={redux} style={{ height: "100px" }} alt="" />
+              <img src={redux} style={{ height: "70px" }} alt="" />
             </div>
           </div>
             </Fade>
