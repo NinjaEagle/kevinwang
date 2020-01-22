@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.9e7f83f8.chunk.css",
-    "main.js": "/static/js/main.c0b902b2.chunk.js",
-    "main.js.map": "/static/js/main.c0b902b2.chunk.js.map",
+    "main.js": "/static/js/main.6d3a8c6c.chunk.js",
+    "main.js.map": "/static/js/main.6d3a8c6c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.be6d268a.js",
     "runtime-main.js.map": "/static/js/runtime-main.be6d268a.js.map",
     "static/js/2.17ca9a51.chunk.js": "/static/js/2.17ca9a51.chunk.js",
     "static/js/2.17ca9a51.chunk.js.map": "/static/js/2.17ca9a51.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.cd622afc26bfc689f7763d186772d9ca.js": "/precache-manifest.cd622afc26bfc689f7763d186772d9ca.js",
+    "precache-manifest.50ccae2f05379cbd67f73fce3075aa3c.js": "/precache-manifest.50ccae2f05379cbd67f73fce3075aa3c.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.9e7f83f8.chunk.css.map": "/static/css/main.9e7f83f8.chunk.css.map",
     "static/media/Postgresql.svg": "/static/media/Postgresql.45e46bc0.svg",
