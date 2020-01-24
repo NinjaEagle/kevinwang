@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../sass/about.css'
+import '../sass/about.scss'
 
 class About extends Component {
     render() {
@@ -8,21 +8,20 @@ class About extends Component {
           <div class="innerinfo">
             <img
               src={require(`../images/kevin.jpg`)}
-              style={{ height: "200px", margin: "70px 0 18px 0px" }}
+              // style={{ height: "200px", margin: "70px 0 18px 0px" }}
               alt="avatar"
               className="avatar-img"
             />
 
             <div className="backgroundinfo">
               <p>
-                I am a Full Stack Developer as well as being a former
-                Electrical Engineer. Since high school, my passion has been
-                creating blogs.
+                Hi! I'm a Full Stack Web Developer. Since high school, my passion has been
+                creating blogs and had an interest in new technology and electronics. This lead me to pursue a degree electrical engineering in college. Now, I really love coding and am currently doing it full time.
               </p>
               <p>
                 My skills are diverse: from front
                 end, back end development, to hardware design. I enjoy each aspect as I create
-                seamless web and mobile applications with design in mind. I'm available for remote work!
+                seamless web and mobile applications with design in mind. I'm also available for remote work!
               </p>
             </div>
             <div className="links">

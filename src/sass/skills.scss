@@ -1,3 +1,13 @@
+@media screen and (max-width: 480px) {
+    #skills-list{
+        display: block;
+    }
+    .skillcard{
+        height: 7.5em;
+        padding: 10px 40px;
+    }
+}
+
 .skills-title{
     padding-top: 52px;
 }
@@ -15,7 +25,6 @@
 }
 
 .skillcard{
-    
     padding: 25px 40px 25px
 }
 .css{

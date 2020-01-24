@@ -31,3 +31,18 @@ code {
 #contact-me{
   height:100vh;
 }
+
+@media screen and (max-width: 480px) {
+  #about{
+    .innerinfo{
+    /* margin: 60px 20px 70px 20px; */
+    height: 10px;
+    display: block;
+    /* .inner {
+      height: 15vw;
+      top: 11px;
+      right: 26px;
+    } */
+    }
+  }
+}
