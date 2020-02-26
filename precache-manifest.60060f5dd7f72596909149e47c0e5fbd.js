@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c6a794a18b3653aa6cb57ecf6d90c053",
+    "revision": "60c6d5c0e7d1f32a651c3d61389e4a7f",
     "url": "/index.html"
   },
   {
-    "revision": "cfeda17dfe57f1386c8b",
-    "url": "/static/css/main.cb995cbe.chunk.css"
+    "revision": "e8a7a006b7ef6edf4eaa",
+    "url": "/static/css/main.286fd999.chunk.css"
   },
   {
     "revision": "c1b54786f6a806faa4b0",
     "url": "/static/js/2.17ca9a51.chunk.js"
   },
   {
-    "revision": "cfeda17dfe57f1386c8b",
-    "url": "/static/js/main.9d82f444.chunk.js"
+    "revision": "e8a7a006b7ef6edf4eaa",
+    "url": "/static/js/main.d1e386cc.chunk.js"
   },
   {
     "revision": "306b2db5afa46c2f8803",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/redux.fd9ab9ee.png"
   },
   {
-    "revision": "f0849c83db7afc24e21eae2e1ed72d43",
-    "url": "/static/media/restaurantjourney.f0849c83.gif"
+    "revision": "fc71030f46dfa8c9a1653a2b326f8a03",
+    "url": "/static/media/restaurantjourney.fc71030f.gif"
   },
   {
     "revision": "a77c84db0370efbcf68e9ace159fcd97",
