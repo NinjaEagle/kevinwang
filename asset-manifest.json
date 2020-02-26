@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.286fd999.chunk.css",
+    "main.css": "/static/css/main.afb173f7.chunk.css",
     "main.js": "/static/js/main.d1e386cc.chunk.js",
     "main.js.map": "/static/js/main.d1e386cc.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.be6d268a.js",
@@ -8,9 +8,9 @@
     "static/js/2.17ca9a51.chunk.js": "/static/js/2.17ca9a51.chunk.js",
     "static/js/2.17ca9a51.chunk.js.map": "/static/js/2.17ca9a51.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.60060f5dd7f72596909149e47c0e5fbd.js": "/precache-manifest.60060f5dd7f72596909149e47c0e5fbd.js",
+    "precache-manifest.d571932b1fc9e6e5f63323b9a27b8a77.js": "/precache-manifest.d571932b1fc9e6e5f63323b9a27b8a77.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.286fd999.chunk.css.map": "/static/css/main.286fd999.chunk.css.map",
+    "static/css/main.afb173f7.chunk.css.map": "/static/css/main.afb173f7.chunk.css.map",
     "static/media/Postgresql.svg": "/static/media/Postgresql.45e46bc0.svg",
     "static/media/welcome.scss": "/static/media/amsterdampattern.a1881729.jpg",
     "static/media/kevin.jpg": "/static/media/kevin.1fc89f55.jpg",
