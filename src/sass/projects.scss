@@ -2,60 +2,74 @@ $barsize: 10px;
 $break-color: rgb(200, 200, 200);
 $page-color: snow;
 
-.each-project{
-    margin: 40px
+.each-project {
+  // margin: 40px;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: space-around;
+  padding: 3%;
 }
 
 .projects-cards {
-h2 {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  text-align: center;
+  h2 {
     text-align: center;
     font-weight: normal;
-}
-background-color: lightcyan;
+  }
+  background-color: lightcyan;
 }
 
 #projects {
-    height: 100%;
-    text-align: center;
-    padding: 0 50px;
+  height: 100%;
+  //   padding: 0 50px;
+  font-size: larger;
 }
 
-.project-title{
-    padding-top: 52px;
-}
-.projectinfo{
-    margin-bottom: 24px;
+.projectgif {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  // height: 400px;
 }
 
-.project-links{
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-        // font-family: 'Montserrat',
-        // sans-serif;
+.project-title {
+  padding-top: 52px;
+}
+
+.projectinfo {
+  margin-bottom: 24px;
+}
+
+.project-links {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .section-break-2 {
-    background-color: transparent;
-    border: 0;
-    border-top: 1px solid $break-color;
-    height: 1px;
-    margin: 2rem auto;
-    text-align: center;
-    width: 80%;
-  
-    &:before {
-      background-color: $page-color;
-      color: darken($break-color, 20%);
-      content: '\25c8';
-      display: inline-block;
-      font-size: 20px;
-      left: 50%;
-      letter-spacing: 0;
-      line-height: 1;
-      text-indent: -1px;
-      text-rendering: geometricPrecision;
-      transform: translateY(-53%);
-      width: 15px;
-    }
+  background-color: transparent;
+  border: 0;
+  border-top: 1px solid $break-color;
+  height: 100%;
+  align-self: center;
+  width: 80%;
+
+  &:before {
+    // background-color: $page-color;
+    color: darken($break-color, 20%);
+    content: "\25c8";
+    display: inline-block;
+    font-size: 20px;
+    left: 50%;
+    letter-spacing: 0;
+    line-height: 1;
+    text-indent: -1px;
+    text-rendering: geometricPrecision;
+    transform: translateY(-53%);
+    width: 15px;
   }
+}

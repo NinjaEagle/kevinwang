@@ -3,46 +3,72 @@ body {
   /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif; */
-   font-family: Montserrat;
+  font-family: "Nunito", sans-serif;
+  word-spacing: 0.2em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", */
-    monospace;
-
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    * / monospace;
 }
 
-@font-face{
-   font-family: 'Montserrat',
-   sans-serif;
-   font-family: 'Crimson Text',
-   serif;
-}
+/* @font-face {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Crimson Text", serif;
+} */
 
 /* contact me links */
-.links{
+.links {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
-#contact-me{
-  height:100vh;
+#contact-me {
+  height: 100vh;
 }
 
-@media screen and (max-width: 480px) {
-  #about{
-    .innerinfo{
-    /* margin: 60px 20px 70px 20px; */
-    height: 10px;
-    display: block;
-    /* .inner {
-      height: 15vw;
-      top: 11px;
-      right: 26px;
-    } */
-    }
+@media screen and (min-device-width: 1200px) {
+  .innerinfo img {
+    display: flex;
+    width: auto;
+    height: 60%;
+    border-radius: 10px;
+    z-index: 99;
+  }
+  .innerinfo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    padding: 3%;
+  }
+  a {
+    font-size: 1.5em;
+    font-weight: ;
+  }
+}
+
+/* for smaller screens */
+@media screen and (max-width: 768px) {
+  .innerinfo {
+    font-size: 1rem;
+  }
+  .innerinfo > p {
+    margin-top: 17%;
+  }
+  .innerinfo > img {
+    display: none;
+  }
+  .innerinfo {
+    display: flex;
+    align-items: center;
+  }
+  p {
+    font-size: 1.3rem;
+  }
+  .links {
+    /* font-size: 1em;s */
   }
 }

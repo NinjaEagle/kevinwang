@@ -1,63 +1,26 @@
-@media screen and (max-width: 480px) {
-    #about{
-        display: block;
-    }
-    .innerinfo{
-    /* margin: 60px 20px 70px 20px; */
-    height: 100vh;
-    width: 100%;
-    }
-    p{
-        font-size: 3.5vmin;
-    }
-    .avatar-img{
-        height: 150px;
-        margin-top: 70px;
-        margin-bottom: 10px;
-    } 
-    .links{
-        margin: 20px 0;
-    }
-}
-
 #about {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: url(../images/notebooklaptop.jpg);
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-    text-align: center;
-    padding: 0 50px;
-    font-family: 'Montserrat',
-    sans-serif;
+  height: 100vh;
+  width: 100vw;
+
+  background: url(../images/notebooklaptop.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  // padding: 3%;
+  font-family: "Nunito", sans-serif;
+  overflow: hidden;
 }
 
-.innerinfo{
-    color: black;
-    background: rgba(255, 255, 255, 0.7);
-    padding: 0 20px;
-    /* position: absolute;
-    left: 10%;
-    right: 10%;
-    top: 50%; */
-    /* margin-top: -150px; */
+.innerinfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 100vh;
+  color: black;
+  background: rgba(255, 255, 255, 0.7);
 
-}
-
-.contactlinks {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-}
-
-a{
-    font-size: 15px;
-}
-
-img {
-    height: 200px;
-    // margin: "70px 0 18px 0px";
-    border-radius: 8px;
+  a {
+    font-weight: 800;
+    font-size: 1.4em;
+  }
 }
