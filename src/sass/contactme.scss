@@ -1,6 +1,10 @@
 @media screen and (max-width: 480px) {
   #contact-me {
     display: block;
+    a {
+      font-weight: 800;
+      font-size: 1.4em;
+    }
   }
   .links {
     padding: 0 10px;
@@ -32,10 +36,4 @@
 
 .links {
   margin: 10px;
-}
-.resume {
-  a {
-    font-weight: 800;
-    font-size: 1.4em;
-  }
 }

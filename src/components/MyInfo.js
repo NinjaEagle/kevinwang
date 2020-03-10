@@ -66,6 +66,8 @@ export default function MyInfo() {
             </a>
           </div>
         </div>
+        <br></br>
+        <br></br>
         <div class="resume">
           <a
             href="https://docs.google.com/document/d/1bKWJr-YGZ-OuUAfWtDJYiyBT9Rxj0Z4VX0N--u4w7x0/edit?usp=sharing"

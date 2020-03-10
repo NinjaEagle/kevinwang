@@ -14,7 +14,7 @@ class Skills extends Component {
           <div class="skills-title has-text-centered-mobile is-size-2">{"Skills"}</div>
           <Fade bottom delay={200}>
           <div id="skills-list">
-            <div class="skillcard  ">
+            <div class="skillcard">
               <h2>CSS3</h2>
               {/* <img src="https://assets.website-files.com/5dbb30f00775d4c32191a4df/5dcac9294d247f107482a185_css-3-plain-wordmark.svg" alt="csssss"></img> */}
               <i class="logo fab fa-css3-alt fa-3x" style= {{height:"80px"}}></i>

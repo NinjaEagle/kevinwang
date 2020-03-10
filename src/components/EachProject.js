@@ -14,7 +14,6 @@ export default class EachProject extends Component {
 
     return (
       <div class="each-project">
-        {/* <div class= ""> */}
         <h2 class="subtitle">
           <strong>{name}</strong>
         </h2>
@@ -56,13 +55,3 @@ export default class EachProject extends Component {
       </div>
     );
   }
-}
-
-//  <div className="eachproject">
-//             <h2>{name}</h2>
-//             <p>{info}</p>
-//             <p>{img}</p>
-//             <p>{video}</p>
-//             FrontEnd:<p>{githubFrontEnd}</p>
-//             BackEnd:<p>{githubBackEnd}</p>
-//           </div>

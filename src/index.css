@@ -26,9 +26,6 @@ code {
   justify-content: space-around;
 }
 
-#contact-me {
-  height: 100vh;
-}
 
 @media screen and (min-device-width: 1200px) {
   .innerinfo img {
@@ -38,15 +35,25 @@ code {
     border-radius: 10px;
     z-index: 99;
   }
+  .backgroundinfo{
+    margin:0 25px;
+  }
   .innerinfo {
     display: flex;
     align-items: center;
     font-size: 1.5em;
     padding: 3%;
   }
+
   a {
-    font-size: 1.5em;
-    font-weight: ;
+    font-size: 1.3em;
+    font-weight:800;
+  }
+  #skills-list{
+    margin-top: 5%;
+  }
+  #contact-me {
+    height: 100%;
   }
 }
 
@@ -68,7 +75,12 @@ code {
   p {
     font-size: 1.3rem;
   }
-  .links {
-    /* font-size: 1em;s */
+  .skillcard{
+    flex-basis: 100%;
+  }
+
+  .links{
+      font-size: 1em;
+      font-weight: 300;
   }
 }
