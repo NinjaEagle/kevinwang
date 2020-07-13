@@ -1,26 +1,17 @@
 #about {
-  height: 100vh;
-  width: 100vw;
+	width: 100vw;
 
-  background: url(../images/notebooklaptop.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  text-align: center;
-  // padding: 3%;
-  font-family: "Nunito", sans-serif;
-  overflow: hidden;
+	background: url(../images/notebooklaptop.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+	overflow: hidden;
 }
 
 .innerinfo {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  height: 100vh;
-  color: black;
-  background: rgba(255, 255, 255, 0.7);
-
-  a {
-    font-weight: 800;
-    font-size: 1.3em;
-  }
+	// display: flex;
+	// flex-direction: row;
+	color: black;
+	background: rgba(255, 255, 255, 0.7);
 }

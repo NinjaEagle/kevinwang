@@ -1,39 +1,39 @@
 @media screen and (max-width: 480px) {
-  #contact-me {
-    display: block;
-    a {
-      font-weight: 800;
-      font-size: 1.4em;
-    }
-  }
-  .links {
-    padding: 0 10px;
-  }
+	#contact-me {
+		display: block;
+		a {
+			font-weight: 800;
+			font-size: 1.4em;
+		}
+	}
+	.links {
+		padding: 0 10px;
+	}
 }
 
 #contact-me {
-  text-align: center;
-  background-color: blue($color: #000000);
+	text-align: center;
+	background-color: blue($color: #000000);
 }
 
 .contact-title {
-  padding-top: 120px;
+	padding-top: 120px;
 }
 
 .contactlinks {
-  visibility: visible;
-  animation-delay: 0.2s;
-  animation-name: bounceIn;
+	visibility: visible;
+	animation-delay: 0.2s;
+	animation-name: bounceIn;
 }
 
 .contact-info {
-  margin: 20px 0px;
+	margin: 20px 0px;
 }
 
 .contactlogo {
-  margin-top: 20px;
+	margin-top: 20px;
 }
 
 .links {
-  margin: 10px;
+	margin: 10px;
 }

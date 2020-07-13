@@ -1,17 +1,17 @@
 body {
-  margin: 0;
-  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+	margin: 0;
+	/* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif; */
-  font-family: "Nunito", sans-serif;
-  word-spacing: 0.2em;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	font-family: 'Nunito', sans-serif;
+	word-spacing: 0.2em;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    * / monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		* / monospace;
 }
 
 /* @font-face {
@@ -21,66 +21,80 @@ code {
 
 /* contact me links */
 .links {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
 
-
 @media screen and (min-device-width: 1200px) {
-  .innerinfo img {
-    display: flex;
-    width: auto;
-    height: 60%;
-    border-radius: 10px;
-    z-index: 99;
-  }
-  .backgroundinfo{
-    margin:0 25px;
-  }
-  .innerinfo {
-    display: flex;
-    align-items: center;
-    font-size: 1.5em;
-    padding: 3%;
-  }
+	.myFace {
+		width: 50%;
+		max-height: 100%;
+		border-radius: 10px;
+		z-index: 99;
+	}
+	.myinfo {
+		width: 70%;
+		margin-top: 20px;
+	}
+	.innerinfo img {
+		display: block;
+		max-width: 100%;
+		max-height: 100%;
+		object-fit: cover;
+	}
+	.backgroundinfo {
+		margin: 0 25px;
+	}
+	.innerinfo {
+		display: flex;
+		align-items: center;
+		font-size: 1.5em;
+		padding: 3%;
+		height: 100vh;
+	}
 
-  a {
-    font-size: 1.3em;
-    font-weight:800;
-  }
-  #skills-list{
-    margin-top: 5%;
-  }
-  #contact-me {
-    height: 100%;
-  }
+	a {
+		font-size: 1.3em;
+		font-weight: 800;
+	}
+	#skills-list {
+		margin-top: 5%;
+	}
+	#contact-me {
+		height: 100%;
+	}
 }
 
 /* for smaller screens */
 @media screen and (max-width: 768px) {
-  .innerinfo {
-    font-size: 1rem;
-  }
-  .innerinfo > p {
-    margin-top: 17%;
-  }
-  .innerinfo > img {
-    display: none;
-  }
-  .innerinfo {
-    display: flex;
-    align-items: center;
-  }
-  p {
-    font-size: 1.3rem;
-  }
-  .skillcard{
-    flex-basis: 100%;
-  }
+	.innerinfo > p {
+		margin-top: 17%;
+	}
+	.myFace {
+		max-width: 50%;
+		max-height: 100%;
+		margin-top: 70px;
+	}
+	.myinfo {
+		margin: 0 15px 0 15px;
+	}
+	.innerinfo {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		height: auto;
+		font-size: 1rem;
+	}
+	p {
+		font-size: 1.3rem;
+	}
+	.skillcard {
+		flex-basis: 100%;
+	}
 
-  .links{
-      font-size: 1em;
-      font-weight: 300;
-  }
+	.links {
+		font-size: 1em;
+		font-weight: 300;
+	}
 }
