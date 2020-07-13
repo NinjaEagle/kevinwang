@@ -1,23 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.9bc454e0.chunk.css",
-    "main.js": "/static/js/main.a360546f.chunk.js",
-    "main.js.map": "/static/js/main.a360546f.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.79452cbe.js",
-    "runtime-main.js.map": "/static/js/runtime-main.79452cbe.js.map",
-    "static/js/2.23da57c9.chunk.js": "/static/js/2.23da57c9.chunk.js",
-    "static/js/2.23da57c9.chunk.js.map": "/static/js/2.23da57c9.chunk.js.map",
+    "main.css": "/static/css/main.8ace79e3.chunk.css",
+    "main.js": "/static/js/main.afc97669.chunk.js",
+    "main.js.map": "/static/js/main.afc97669.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1d1988f9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1d1988f9.js.map",
+    "static/js/2.6bcb163d.chunk.js": "/static/js/2.6bcb163d.chunk.js",
+    "static/js/2.6bcb163d.chunk.js.map": "/static/js/2.6bcb163d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.7568c5932f0b9e30f96251ff517f8f7a.js": "/precache-manifest.7568c5932f0b9e30f96251ff517f8f7a.js",
+    "precache-manifest.f261cacf49eb85fa5b049760261ee79a.js": "/precache-manifest.f261cacf49eb85fa5b049760261ee79a.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.9bc454e0.chunk.css.map": "/static/css/main.9bc454e0.chunk.css.map",
+    "static/css/main.8ace79e3.chunk.css.map": "/static/css/main.8ace79e3.chunk.css.map",
+    "static/js/2.6bcb163d.chunk.js.LICENSE.txt": "/static/js/2.6bcb163d.chunk.js.LICENSE.txt",
     "static/media/Postgresql.svg": "/static/media/Postgresql.45e46bc0.svg",
     "static/media/welcome.scss": "/static/media/amsterdampattern.a1881729.jpg",
-    "static/media/kevin.jpg": "/static/media/kevin.1fc89f55.jpg",
+    "static/media/kevin.jpg": "/static/media/kevin.a4c712dd.jpg",
     "static/media/about.scss": "/static/media/notebooklaptop.a72264f4.jpg",
     "static/media/rails.png": "/static/media/rails.8614e1a4.png",
     "static/media/redux.png": "/static/media/redux.fd9ab9ee.png",
     "static/media/restaurantjourney.gif": "/static/media/restaurantjourney.fc71030f.gif",
-    "static/media/restroomfinder.gif": "/static/media/restroomfinder.a77c84db.gif"
-  }
+    "static/media/restroomfinder.gif": "/static/media/restroomfinder.a77c84db.gif",
+    "static/media/rightshub.gif": "/static/media/rightshub.5e27c590.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1d1988f9.js",
+    "static/js/2.6bcb163d.chunk.js",
+    "static/css/main.8ace79e3.chunk.css",
+    "static/js/main.afc97669.chunk.js"
+  ]
 }
