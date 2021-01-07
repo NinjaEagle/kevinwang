@@ -3,31 +3,33 @@ $break-color: rgb(200, 200, 200);
 $page-color: snow;
 
 .each-project {
-  // margin: 40px;
   display: flex;
   flex-direction: column;
   height: auto;
   justify-content: space-around;
   padding: 3%;
+
 }
 
 .projects-cards {
   display: flex;
   flex-direction: column;
-  height: auto;
   text-align: center;
-  h2 {
-    text-align: center;
-    font-weight: normal;
-  }
-  background-color: lightcyan;
+  // background-color: #18BD95;
 }
 
 #projects {
   height: 100%;
   padding: 0 10%;
-  h2{
-    font-size: 32px;
+  h1{
+		font-weight: normal;
+		font-size: 63px;
+		padding-top: 52px;
+		margin-bottom: 30px;
+	}
+  h3{
+    font-size: 36px;
+    font-weight: normal;
   }
   p{
     font-size: 20px;
@@ -43,7 +45,7 @@ $page-color: snow;
 
 .project-title {
   padding-top: 52px;
-  margin-bottom: 10%;
+  margin-bottom: 30px;
 }
 
 .projectinfo {

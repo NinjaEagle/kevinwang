@@ -3,18 +3,21 @@
     flex-basis: 50%;
   }
 }
-.skills-title {
-  padding-top: 52px;
-}
 
 #skills-list {
   display: flex;
   justify-content: flex-start;
   flex-flow:row wrap;
 }
+.skills-title{
+		font-weight: normal;
+		font-size: 63px;
+		padding-top: 52px;
+		margin-bottom: 30px;
+}
 
 .skills-section {
-  background-color: #bcebcb;
+  background-color: #dde5e8; 
   height: 100vh;
   margin: 0 auto;
   text-align: center;

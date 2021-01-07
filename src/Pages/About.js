@@ -14,7 +14,6 @@ class About extends Component {
 									<div className='myFace'>
 										<img
 											src={require(`../images/kevin.jpg`)}
-											// style={{ height: "200px", margin: "70px 0 18px 0px" }}
 											alt='avatar'
 											className='avatar-img'
 										/>

@@ -14,9 +14,9 @@ export default class EachProject extends Component {
 
 		return (
 			<div class='each-project'>
-				<h2 class='subtitle'>
-					<strong>{name}</strong>
-				</h2>
+				<h3 class='subtitle'>
+					{name}
+				</h3>
 				<p className='projectinfo'>{info}</p>
 				<p className='tech'>{technologies}</p>
 				<br></br>

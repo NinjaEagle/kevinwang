@@ -13,7 +13,7 @@ class Welcome extends Component {
                 </div>
                 <div class="subtitle is-3 animated">
                     <Slide left delay={200}>
-                        Full Stack Developer
+                        Software Engineer
                     </Slide>
                 </div>
             </div>

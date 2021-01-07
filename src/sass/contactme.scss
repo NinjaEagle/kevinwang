@@ -13,11 +13,14 @@
 
 #contact-me {
 	text-align: center;
-	background-color: blue($color: #000000);
+	background-color: rgb(233,245,209);
 }
 
 .contact-title {
-	padding-top: 120px;
+	font-weight: normal;
+	font-size: 63px;
+	padding-top: 52px;
+	margin-bottom: 30px;
 }
 
 .contactlinks {

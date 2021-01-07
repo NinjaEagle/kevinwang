@@ -3,9 +3,6 @@ import React, { Component } from "react";
 import "../sass/navbar.css";
 
 class NavBar extends Component {
-  // scrollToTop = () => {
-  //   scroll.scrollToTop();
-  // }
   handleClick = () => {
     let unToggle = document.querySelector(".navbar-burger");
     let menu = document.querySelector(".navbar-menu");

@@ -12,9 +12,9 @@ export default class Projects extends React.Component {
 			<React.Fragment>
 				<div id='projects' className='projects-cards'>
 					<Jump>
-						<h2 class='project-title has-text-centsered-mobile is-size-2 is-family-code'>
-							{'Projects'}
-						</h2>
+						<h1 className='title'>
+							Projects
+						</h1>
 					</Jump>
 					{eachProject}
 				</div>

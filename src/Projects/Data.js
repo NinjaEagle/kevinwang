@@ -13,7 +13,7 @@ class Data extends React.Component {
 				info:
 					'Our goal is to educate and inform the public about incidents of death from police in their area via data visualizations and educate them about their rights.',
 				technologies:
-					'Technologies used: React (Router, Hooks), Node.js, Leaflet, HTML, CSS, Bootstrap',
+					'Built with React (Router, Hooks), Node.js, Leaflet, HTML, CSS, Bootstrap',
 				img: rightshub,
 				githubFrontEnd: 'https://github.com/hackforblacklivesmatter-5-1/rightshub',
 				video: '',
@@ -25,7 +25,7 @@ class Data extends React.Component {
 				info:
 					'A website that allows a user to click on any restroom marker on the map to get information so it can be added to the visit list and review it.',
 				technologies:
-					'Technologies used: React (Router, Hooks), Ruby on Rails, PostgreSQL, Heroku, Bootstrap, CSS',
+					'Built with React (Router, Hooks), Ruby on Rails, PostgreSQL, Heroku, Bootstrap, CSS',
 				img: restroomfinder,
 				githubFrontEnd:
 					'https://github.com/NinjaEagle/nyc-restroom-locator-frontend',
@@ -40,7 +40,7 @@ class Data extends React.Component {
 				info:
 					' A click-through game that allows a user to select restaurants in each borough with a goal to get through all five boroughs without getting sick.',
 				technologies:
-					'Technologies used: React (Router), Ruby on Rails, PostgreSQL, Heroku, Bootstrap, CSS.',
+					'Built with React (Router), Ruby on Rails, PostgreSQL, Heroku, Bootstrap, CSS.',
 				img: restaurantjourney,
 				githubFrontEnd:
 					'https://github.com/NinjaEagle/restaurant-journey-app-frontend',
@@ -57,7 +57,7 @@ class Data extends React.Component {
 				info:
 					'Allows travelers to click on a destination on the sidebar and view climate, top attractions, and past traveler reviews.',
 				technologies:
-					'Technologies I used to build this: Vanilla JS, Ruby on Rails, PostgreSQL, CSS.',
+					'Built with Vanilla JS, Ruby on Rails, PostgreSQL, CSS.',
 				img:
 					'https://www.newsbtc.com/wp-content/uploads/2018/07/Singapore-Blockchain-700x400.jpg',
 				githubFrontEnd: 'https://github.com/NinjaEagle/super-tripviews-api',

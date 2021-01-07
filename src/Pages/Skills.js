@@ -11,7 +11,7 @@ class Skills extends Component {
   render() {
       return (
         <div id="skills" class="skills-section" >
-          <div class="skills-title has-text-centered-mobile is-size-2">{"Skills"}</div>
+          <h1 className="skills-title">Skills</h1>
           <Fade bottom delay={200}>
           <div id="skills-list">
             <div class="skillcard">
