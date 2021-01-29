@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "500d3847e7377fba9c36ba44c0452ca8",
+    "revision": "38a7bf09110503e754975b637a5c91fb",
     "url": "/index.html"
   },
   {
-    "revision": "5a22b126c21530206cab",
+    "revision": "1fb25a6624b08b472a25",
     "url": "/static/css/main.bd7604c3.chunk.css"
   },
   {
-    "revision": "6ee3906d8a2e8aea6e41",
-    "url": "/static/js/2.6bcb163d.chunk.js"
+    "revision": "cacbbecb9e269553c45d",
+    "url": "/static/js/2.882f8e06.chunk.js"
   },
   {
     "revision": "b863565cc6bf5e3a21daf4e04523a1ed",
-    "url": "/static/js/2.6bcb163d.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.882f8e06.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5a22b126c21530206cab",
-    "url": "/static/js/main.99f23b61.chunk.js"
+    "revision": "1fb25a6624b08b472a25",
+    "url": "/static/js/main.603e3324.chunk.js"
   },
   {
     "revision": "67f577508ff7ca65e5e1",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a1881729822e0e5f517422938d25cf8c",
     "url": "/static/media/amsterdampattern.a1881729.jpg"
+  },
+  {
+    "revision": "68becb134006931dc21bc66905ce5edf",
+    "url": "/static/media/hackernewsclone.68becb13.png"
   },
   {
     "revision": "a4c712dd74c342c7e7834051b19f2393",
